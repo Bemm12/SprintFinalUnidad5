@@ -11,6 +11,7 @@ import sprintfinalm5.modelo.Usuario;
 
 /**
  * Servlet implementation class ActualizarUsuario
+ * 
  */
 @WebServlet("/actualizarusuario")
 public class ActualizarUsuario extends HttpServlet {
