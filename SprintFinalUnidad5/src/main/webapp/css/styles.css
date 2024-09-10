@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* reglas para verificar que se haya tomado el .css */
+/* body { */
+/*     font-family: Arial, sans-serif; */
+/*     background-color: #00ffff;  */
+/*     color: red; */
+/*     margin: 0; */
+/*     padding: 0; */
+/* } */
+
+h1 {
+    font-size : 4rem;
+}
+
+.container {
+	margin-bottom: 4rem;
+}
+
+.container-footer {
+    margin: 1rem;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.navbar {
+	background-color: #262A56;	
+}
+
+
+footer {
+    background-color: #343a40;
+    color: white;
+    margin-top: 24rem;
+    text-align: center;
+/*     position: fixed; */
+    width: 100%;
+    margin-bottom: 0;
+}
+
+table {
+    margin: 20px auto;
+    width: 100%;
+}
