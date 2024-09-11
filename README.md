@@ -77,28 +77,28 @@ muchas empresas se encuentran en zonas donde no hay conexión de ese tipo.
 
 ## 4. OBJETIVOS DEL PROYECTO
 
-** Desarrollar un sitio web dinámico bajo el patrón de diseño MVC.
-** Conectar el sitio web a una base de datos Oracle.
-** Implementar servlets y JSP para manejar la lógica del sistema.
-** Crear y gestionar clientes, profesionales y administrativos en la plataforma.
+** Desarrollar un sitio web dinámico bajo el patrón de diseño MVC.  
+** Conectar el sitio web a una base de datos Oracle.  
+** Implementar servlets y JSP para manejar la lógica del sistema.  
+** Crear y gestionar clientes, profesionales y administrativos en la plataforma.  
 
 
 ## 5. REQUISITOS DEL SISTEMA
-**Java (JEE):** Servlets para manejar la lógica de negocio.
-**JSP:** Para generar contenido dinámico en el frontend.
-**Base de Datos:** Almacena toda la información relacionada con los clientes, capacitaciones, pagos, etc.
-**Apache Tomcat:** Servidor de aplicaciones utilizado para desplegar el proyecto.
-**Control de Versiones (GitHub):** El proyecto se encuentra en un repositorio público en GitHub.
+**Java (JEE):** Servlets para manejar la lógica de negocio.  
+**JSP:** Para generar contenido dinámico en el frontend.  
+**Base de Datos:** Almacena toda la información relacionada con los clientes, capacitaciones, pagos, etc.  
+**Apache Tomcat:** Servidor de aplicaciones utilizado para desplegar el proyecto.  
+**Control de Versiones (GitHub):** El proyecto se encuentra en un repositorio público en GitHub.  
 
 ## 6. ESTRUCTURA DEL PROYECTO
-**Clases Java:** Manejan la lógica del sistema.
-**Interfaces:** Para definir los contratos de las funcionalidades.
-**JSP:** Para la presentación dinámica del contenido.
-**Hojas de Estilo:** Definición de estilos responsivos compartidos entre todas las páginas.
-**Scripts JS:** Comentados y debidamente organizados.
+**Clases Java:** Manejan la lógica del sistema. 
+**Interfaces:** Para definir los contratos de las funcionalidades.  
+**JSP:** Para la presentación dinámica del contenido.  
+**Hojas de Estilo:** Definición de estilos responsivos compartidos entre todas las páginas.  
+**Scripts JS:** Comentados y debidamente organizados.  
 
 ## 7. MODELO DE DATOS
 El sistema utiliza una base de datos Oracle con las siguientes tablas principales:
 
-**Usuarios (Clientes, Administrativos, Profesionales)
+**Usuarios (Clientes, Administrativos, Profesionales)  
 **Capacitaciones
