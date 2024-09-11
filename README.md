@@ -1,4 +1,5 @@
-# Evaluación Final Spring Módulo 5  Desarrollo de aplicaciones web dinámicas con Java
+# Evaluación Final Spring Módulo 5  
+Desarrollo de aplicaciones web dinámicas con Java
 ## Sistema de Información para Empresa de Asesorías en Prevención de Riesgos
 
 # Integrantes:
@@ -91,7 +92,7 @@ muchas empresas se encuentran en zonas donde no hay conexión de ese tipo.
 **Control de Versiones (GitHub):** El proyecto se encuentra en un repositorio público en GitHub.  
 
 ## 6. ESTRUCTURA DEL PROYECTO
-**Clases Java:** Manejan la lógica del sistema. 
+**Clases Java:** Manejan la lógica del sistema.   
 **Interfaces:** Para definir los contratos de las funcionalidades.  
 **JSP:** Para la presentación dinámica del contenido.  
 **Hojas de Estilo:** Definición de estilos responsivos compartidos entre todas las páginas.  
