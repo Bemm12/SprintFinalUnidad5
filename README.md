@@ -2,10 +2,10 @@
 ## Sistema de Información para Empresa de Asesorías en Prevención de Riesgos
 
 # Integrantes:
-     - Diego Rivera  https://github.com/D3R5/Sprint-Unidad-5-Bootcamp-Java
-     - Beatriz Maldonado  https://github.com/Bemm12/SprintFinalUnidad5.git
-     - Jorge Lira   https://github.com/lyra-c/sprint-final-m5
-     - Jorge Montoya  https://github.com/jorgemonval/SprintFinalUnidad5.git
+     - Diego Rivera  
+     - Beatriz Maldonado  
+     - Jorge Lira   
+     - Jorge Montoya  
      - Felipe Martínez
 
 
