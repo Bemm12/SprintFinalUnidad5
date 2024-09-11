@@ -8,8 +8,24 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class Contacto
- */
+ * Servlet Contacto
+ * 
+ * Consiste en el despliegue de un formulario en el sitio, con código HTML, 
+ * pero que envía los campos del formulario a través de la consola del servidor
+ * de Apache Tomcat.
+ * 
+ * @param nombre corresponde al nombre de quien se contacta
+ * @param email corresponde al correo de contacto
+ * @param mensaje corresponde al mensaje a enviar en el formulario de contacto
+ * 
+ * @author Jorge Lira
+ * @author Beatriz Maldonado
+ * @author Felipe Martínez
+ * @author Jorge Montoya
+ * @author Diego Rivera
+ * 
+ * @version 1.0
+ * */
 @WebServlet("/contacto")
 public class Contacto extends HttpServlet {
     private static final long serialVersionUID = 1L;

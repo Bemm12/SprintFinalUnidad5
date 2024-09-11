@@ -11,8 +11,18 @@ import sprintfinalm5.dao.CapacitacionDAOimpl;
 import sprintfinalm5.modelo.Capacitacion;
 
 /**
- * Servlet implementation class CrearCapacitacion
- */
+ * Servlet CrearCapacitacion
+ * 
+ * Permite crear una nueva capacitación en la base de datos
+ * 
+ * @author Jorge Lira
+ * @author Beatriz Maldonado
+ * @author Felipe Martínez
+ * @author Jorge Montoya
+ * @author Diego Rivera
+ * 
+ * @version 1.0
+ * */
 @WebServlet("/crearcapacitacion")
 public class CrearCapacitacion extends HttpServlet {
 	private static final long serialVersionUID = 1L;

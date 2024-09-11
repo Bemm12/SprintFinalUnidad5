@@ -1,20 +1,65 @@
 @charset "UTF-8";
 
-/* reglas para verificar que se haya tomado el .css */
-/* body { */
-/*     font-family: Arial, sans-serif; */
-/*     background-color: #00ffff;  */
-/*     color: red; */
-/*     margin: 0; */
-/*     padding: 0; */
-/* } */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #E1D9D6;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.card {
+    border: none;
+    margin: 0;
+    border-radius: 0;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.form-floating label {
+    color: #6c757d;
+}
+
+.form-control {
+    border-radius: 0.5rem;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0b5ed7;
+}
 
 h1 {
-    font-size : 4rem;
+    font-size: 3rem;
 }
 
 .container {
-	margin-bottom: 4rem;
+    margin-bottom: 4rem;
+    padding: 0;
+}
+
+.row {
+    margin: 0; /* Elimina el margen entre las columnas */
+}
+
+.col-md-6 {
+    padding: 0; /* Elimina el relleno interno de las columnas */
+}
+
+/* Asegúrate de que no haya espacios adicionales alrededor del contenedor */
+.container {
+    padding: 0;
 }
 
 .container-footer {
@@ -26,16 +71,14 @@ h1 {
 }
 
 .navbar {
-	background-color: #262A56;	
+    background-color: #262A56;
 }
-
 
 footer {
     background-color: #343a40;
     color: white;
     margin-top: 24rem;
     text-align: center;
-/*     position: fixed; */
     width: 100%;
     margin-bottom: 0;
 }
@@ -43,4 +86,12 @@ footer {
 table {
     margin: 20px auto;
     width: 100%;
+}
+
+/* Estilo para la imagen de bienvenida */
+img.welcome-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }

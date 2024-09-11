@@ -1,5 +1,21 @@
 package sprintfinalm5.modelo;
 
+/**
+ * Clase Capacitación
+ * 
+ * Cuenta con los atributos de:
+ * - int id
+ * - String nombre
+ * - String detalle
+ * 
+ * @author Jorge Lira
+ * @author Beatriz Maldonado
+ * @author Felipe Martínez
+ * @author Jorge Montoya
+ * @author Diego Rivera
+ * 
+ * @version 1.0
+ * */
 public class Capacitacion {
 
 	private int id;

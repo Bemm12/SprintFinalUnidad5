@@ -13,8 +13,19 @@ import javax.servlet.http.HttpServletResponse;
 import sprintfinalm5.conexion.Conexion;
 
 /**
- * Servlet implementation class Index
- */
+ * Servlet Inicio
+ * 
+ * Comprende el sitio de inicio de la aplicación web una vez se ha iniciado
+ * sesión correctamente.
+ * 
+ * @author Jorge Lira
+ * @author Beatriz Maldonado
+ * @author Felipe Martínez
+ * @author Jorge Montoya
+ * @author Diego Rivera
+ * 
+ * @version 1.0
+ * */
 @WebServlet("/inicio")
 public class Inicio extends HttpServlet {
 	private static final long serialVersionUID = 1L;

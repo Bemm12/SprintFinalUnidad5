@@ -10,8 +10,25 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 /**
- * Servlet implementation class LoginServlet
- */
+ * Servlet Login
+ * 
+ * Compone la página de inicio de la aplicación web dinámica
+ * 
+ * @param session corresponde al objeto de sesión creado al ingresar al sitio,
+ * con lo que también se genera una cookie para ese usuario gracias a la clase
+ * de HTTPSession, con lo que se mantiene vigencia para todo el sitio con tal
+ * de asegurar la navegación a través de este habiendo presentado credenciales.
+ * @param cookie corresponde a un objeto cookie creado para almacenar el nombre
+ * del usuario durante su sesión.
+ * 
+ * @author Jorge Lira
+ * @author Beatriz Maldonado
+ * @author Felipe Martínez
+ * @author Jorge Montoya
+ * @author Diego Rivera
+ * 
+ * @version 1.0
+ * */
 @WebServlet("/")
 public class Login extends HttpServlet {
     

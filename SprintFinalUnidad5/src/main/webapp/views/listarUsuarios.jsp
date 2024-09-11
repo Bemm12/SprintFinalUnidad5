@@ -27,28 +27,39 @@
 					<th scope="col">#</th>
 					<th scope="col">Nombre</th>
 					<th scope="col">Tipo</th>
+					<th scope="col">RUT</th>
+					<th scope="col">Sexo</th>
+					<th scope="col">Fecha de Nacimiento</th>
+					<th scope="col">Dirección</th>
 					<th scope="col">Acciones</th>
-					<!-- Nueva columna para las acciones -->
 				</tr>
 			</thead>
 			<tbody>
 				<c:forEach var="usuario" items="${users}">
 					<tr>
-						<th scope="col">${usuario.id}</th>
-						<th scope="col">${usuario.nombre}</th>
-						<th scope="col">${usuario.tipo}</th>
-						<th scope="col">
+						<td>${usuario.id}</td>
+						<td>${usuario.nombre}</td>
+						<td>${usuario.tipo}</td>
+						<td>${usuario.rut}</td>
+						<td>${usuario.sexo}</td>
+						<td>${usuario.fechaNacimiento}</td>
+						<td>${usuario.direccion}</td>
+						<td>
 							<!-- Enlace al controlador de actualización con el ID del usuario -->
 							<a
 							href="${pageContext.request.contextPath}/actualizarusuario?id=${usuario.id}"
 							class="btn btn-warning">Actualizar</a>
-						</th>
+							<a
+							href="#"
+							class="btn btn-danger">Eliminar</a>
+						</td>
 					</tr>
 				</c:forEach>
 			</tbody>
 		</table>
 
 	</div>
+
 
 	<!-- Footer -->
 	<%@ include file="footer.jsp"%>

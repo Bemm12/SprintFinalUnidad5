@@ -13,8 +13,19 @@ import sprintfinalm5.dao.CapacitacionDAOimpl;
 import sprintfinalm5.modelo.Capacitacion;
 
 /**
- * Servlet implementation class ListarCapacitaciones
- */
+ * Servlet ListarCapacitaciones
+ * 
+ * Permite obtener todos los registros de capacitaciones desde la base
+ * de datos, y desplegarlos en la página
+ * 
+ * @author Jorge Lira
+ * @author Beatriz Maldonado
+ * @author Felipe Martínez
+ * @author Jorge Montoya
+ * @author Diego Rivera
+ * 
+ * @version 1.0
+ * */
 @WebServlet("/listarcapacitaciones")
 public class ListarCapacitaciones extends HttpServlet {
 	private static final long serialVersionUID = 1L;

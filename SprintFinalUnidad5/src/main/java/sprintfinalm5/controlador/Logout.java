@@ -10,8 +10,23 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 /**
- * Servlet implementation class LogoutServlet
- */
+ * Servlet Logout
+ * 
+ * Compone una acción intermediaria al momento de cerrar sesión, en la cual se
+ * invalida el objeto sesión creado y el objeto cookie creado.
+ * 
+ * @param session corresponde al objeto de sesión creado al ingresar al sitio,
+ * y con la acción del sitio /logout lo que se hace es invalidar este objeto.
+ * @param cookie corresponde a la cookie que será invalidada junto con session.
+ * 
+ * @author Jorge Lira
+ * @author Beatriz Maldonado
+ * @author Felipe Martínez
+ * @author Jorge Montoya
+ * @author Diego Rivera
+ * 
+ * @version 1.0
+ * */
 @WebServlet("/logout")
 public class Logout extends HttpServlet {
 	private static final long serialVersionUID = 1L;

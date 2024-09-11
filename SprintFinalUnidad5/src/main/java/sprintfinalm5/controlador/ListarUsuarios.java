@@ -13,8 +13,19 @@ import sprintfinalm5.dao.UsuarioDAOimpl;
 import sprintfinalm5.modelo.Usuario;
 
 /**
- * Servlet implementation class ListarUsuarios
- */
+ * Servlet ListarUsuarios
+ * 
+ * Permite obtener todos los registros de usuarios desde la base
+ * de datos, y desplegarlos en la página
+ * 
+ * @author Jorge Lira
+ * @author Beatriz Maldonado
+ * @author Felipe Martínez
+ * @author Jorge Montoya
+ * @author Diego Rivera
+ * 
+ * @version 1.0
+ * */
 @WebServlet("/listarusuarios")
 public class ListarUsuarios extends HttpServlet {
 	private static final long serialVersionUID = 1L;

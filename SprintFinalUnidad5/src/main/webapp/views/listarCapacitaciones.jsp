@@ -23,6 +23,7 @@
  				<th scope="col">#</th>
  				<th scope="col">Nombre</th>
  				<th scope="col">Detalle</th>
+ 				<th scope="col">Acciones</th>
  			</tr>
  		</thead>
  		<tbody>
@@ -31,6 +32,15 @@
  					<th scope="col">${capacitacion.id}</th>
 	 				<th scope="col">${capacitacion.nombre}</th>
 	 				<th scope="col">${capacitacion.detalle}</th>
+	 				<td>
+							<!-- Enlace al controlador de actualización con el ID del usuario -->
+							<a
+							href="#"
+							class="btn btn-warning">Actualizar</a>
+							<a
+							href="#"
+							class="btn btn-danger">Eliminar</a>
+						</td>
  				</tr>
  			</c:forEach>
  		</tbody>
